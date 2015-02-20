@@ -1,0 +1,23 @@
+---
+layout: project
+title: Using Gazebo with ros_control for 3R robot arm
+date: October 15, 2014
+image: https://raw.githubusercontent.com/JoshMarino/gazebo_and_ros_control/master/default_gzclient_camera(0)-2014-11-02T13_13_39.164758.jpg
+---
+
+# Overview
+We modified the 2R robot arm from [RRBot repo](https://github.com/ros-simulation/gazebo_ros_demos) to add a third link, making it a RRRBot. 
+
+### RViz was used to visualize the RRRBot
+RViz was used throughout to visualize the RRRBot. More specifically, the camera feed and Hokuyo laser scanner map attached at the end-effector were monitored while using ros_control.
+
+### Gazebo was used with ros_control for position control
+Gazebo was then used with ros_control to control the end-effector link to a desired trajectory. A position controller was used to accomplish this using PID control. Each link was commanded to follow a sine movement.
+
+### Torque control with added mass at end of third link
+An extension was then modified to use ros_control with torque control. A simple example was performed to stabilize the RRRBot to an unstable position. Next, we used torque control to maintain an unstable position while adding a mass (30% mass of third link) to the end-effector.
+
+
+# Github Repository
+Our code is included in the following Github repository: [gazebo_and_ros_control](https://github.com/JoshMarino/gazebo_and_ros_control/tree/ca24b8c1f7f1fd799ac3c9211240e5f0b76e1357)
+

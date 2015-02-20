@@ -1,0 +1,37 @@
+---
+layout: project
+title: Baxter Stocking Stuffer
+date: December 1, 2014
+image: http://www.generationrobots.com/2533-thickbox_default/baxter-robot-research-prototype.jpg
+---
+
+## Overview
+My Fall 2014 mini-project was working as part of a team to have Baxter stuff stockings with presents for Christmas. He scans his workspace to find a stocking, determines the present associated with each unique stocking, scans a table for the correct present, picks up the present, and last, drops the present inside the stocking. Baxter then continues stuffing stockings until the last one has finished.
+
+### Baxter Scanning his Workspace to Find an Empty Stocking
+To start, Baxter moves his hand to a predetermined position in which he can see all stockings. The stocking ID's are all read and he selects the first identifier that has not already been completed. 
+
+### Reading the Stocking to Determine which Present to Locate
+Baxter then moves closer to each stocking and determines the stocking belonging to the first identifier via ID comparison. Once the correct stocking has been found, the pose of said stocking is noted and saved for later use.
+
+### Locates the Correct Present in his Workspace
+Once the stocking has been found, the color of the associated present is looked up in a table Baxter has access to. This color is then used to threshold the camera feed on Baxter's hand camera to find the correct present to pick up. Our solution to doing this was finding the center of the object using moments along with OpenCV.
+
+### Move to the Desired Present and Pick it up
+The center of the present was sent to a controller that moved Baxter's gripper within grasping reach of the present. Baxter closed his gripper once he was close enough to do so, determined from a laser finder attached to his hand.
+
+### With the Present in his Grasp, Relocate to the Stocking
+After the present was grasped, Baxter moved back to the location previously stored in his memory.
+
+### Drop the Present in the Appropriate Stocking
+Last, Baxter released the present in his stocking by opening his gripper.
+
+### Scan for another Stocking until Finished
+In order to determine when Baxter had completed stuffing all the stockings, the ID's for each completed stocking were saved in a list. These ID's were then compared to the ID's Baxter found when looking at all the stockings. If there was a stocking not yet stuffed, Baxter would continue the stocking stuffer process until all were checked off.
+
+
+## Baxter Stocking Stuffer Repository
+Our team created a Github repository for this project, located [here.](https://github.com/ChuChuIgbokwe/ME495-Final-Project-Baxter-Stocking-Stuffer)
+
+## Baxter Stocking Stuffer YouTube Video
+We included a video of the process for one complete stocking, [click here!](http://vimeo.com/114372776)

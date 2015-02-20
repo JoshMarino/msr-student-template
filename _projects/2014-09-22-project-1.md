@@ -1,0 +1,21 @@
+---
+layout: project
+title: MSR Hack-a-thon
+date: September 5, 2014
+image: http://a.tgcdn.net/images/products/zoom/8a0f_usb_rocket_launcher.jpg
+---
+
+## Overview
+During the MSR hack-a-thon before starting Fall Quarter 2014, our class was introduced to ROS, Linux, and Python. As an introdution to ROS, we were divided into 4 teams and worked on a project to aim a USB Rocket Launcher at a red ball.
+
+### Introduction to ROS Subscriber/Publisher
+Before getting started on the rocket launcher, we did a simple subscriber/publisher tutorial. This was then modified with a launch file to open and view a USB web camera stream with the package usb_cam.
+
+### Controlling Servo-motors with Keyboard Input
+In order to test using keyboard characters as an aiming method for the rocket launcher, we first attempted using it with a servo motor. We used a package in Python to accomplish this called "readchar", and created a publisher to broadcast the character read. A subscriber was then created to aim the servo based on the character read (A-W-S-D). 
+
+### OpenCV to Track the Target Red Ball
+OpenCV within Python was performed on the USB camera stream to locate the position of a red ball. Basic HSV thresholding with dilation and erosion was used to find the position of the red ball in the camera's field of view. Although the position of the red ball was not used for aiming, it provided the shooter with a method of targeting.
+
+### Putting it all Together
+Once we achieved our task of aiming the rocket launcher with keyboard input, the 4 teams showcased their individual methods for aiming the rocket launcher. One team provided the other 3 teams with a method to send each team's aiming commands over a wireless network and between computers using networking. The other two teams accomplished aiming the rocket launcher via voice commands through a microphone and by using the Kinect PCL to command the rocket launcher based on different hand/arm/leg positions.
