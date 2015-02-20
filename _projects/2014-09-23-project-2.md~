@@ -1,5 +1,6 @@
 ---
 layout: project
+<<<<<<< HEAD
 title: Using Gazebo with ros_control for 3R robot arm
 date: October 15, 2014
 image: https://raw.githubusercontent.com/JoshMarino/gazebo_and_ros_control/master/default_gzclient_camera(0)-2014-11-02T13_13_39.164758.jpg
@@ -8,16 +9,37 @@ image: https://raw.githubusercontent.com/JoshMarino/gazebo_and_ros_control/maste
 # Overview
 We modified the 2R robot arm from [RRBot repo](https://github.com/ros-simulation/gazebo_ros_demos) to add a third link, making it a RRRBot. 
 
-### RViz was used to visualize the RRRBot
+### RViz was used to Visualize the RRRBot
 RViz was used throughout to visualize the RRRBot. More specifically, the camera feed and Hokuyo laser scanner map attached at the end-effector were monitored while using ros_control.
 
-### Gazebo was used with ros_control for position control
+### Gazebo was used with ros_control for Position Control
 Gazebo was then used with ros_control to control the end-effector link to a desired trajectory. A position controller was used to accomplish this using PID control. Each link was commanded to follow a sine movement.
 
-### Torque control with added mass at end of third link
+### Torque Control with Added Mass at end of Third Link
 An extension was then modified to use ros_control with torque control. A simple example was performed to stabilize the RRRBot to an unstable position. Next, we used torque control to maintain an unstable position while adding a mass (30% mass of third link) to the end-effector.
 
 
 # Github Repository
 Our code is included in the following Github repository: [gazebo_and_ros_control](https://github.com/JoshMarino/gazebo_and_ros_control/tree/ca24b8c1f7f1fd799ac3c9211240e5f0b76e1357)
 
+=======
+title: Project 2
+date: September 23, 2014
+image: http://unsplash.it/400?random
+---
+
+## Overview
+Lorem ipsum dolor sit amet, tota primis copiosae id quo. Melius eligendi elaboraret pri et, eam menandri platonem te. Tollit iudicabit gloriatur per ad. Ad diceret recteque eum, eu commodo petentium qui. No aliquid delectus eam, dicta eripuit convenire te nec. Vix no veritus dignissim. Erat ferri veniam ut eos, pro ex eius error intellegat, his te graecis oporteat honestatis.
+
+### Topic 1
+His nemore audiam consequat ad, no augue choro assueverit mei. Zril offendit tincidunt ne quo. At commodo integre alienum sea, cu vocent fuisset suscipit nam. Eum ex tation omnesque adversarium, mutat autem putant te nam. Id vix facilis complectitur, vis vitae vivendo euripidis ea, fugit eirmod an vix.
+
+### Topic 2
+Ad case nemore equidem mea. Duo te iuvaret appetere appellantur, sint scaevola usu cu. Eum ne aeque ridens prompta. At legendos vulputate eos, pro illum iuvaret cu, ludus vituperata usu no.
+
+### Topic 3
+Mel magna discere in. Mea ea dicit homero perfecto. Eam nulla facete scribentur in. Vide volutpat laboramus est cu, usu cu impetus dignissim. Ex pro decore impetus. Ius nihil iisque deterruisset an, ex sanctus verterem his. Doming prompta insolens est ut.
+
+### Topic 4
+Quod etiam pri ea, habemus electram ea eos, propriae insolens ea qui. Pro no mollis vituperatoribus. Augue quando delicatissimi ex per, vel ea vidisse dolorem eleifend. Has te aliquid senserit, reque soleat sed ea. At bonorum facilisis disputando est, error tantas appetere nec te. Mel in nobis animal.
+>>>>>>> 655942306b89c628c5e9437ec641109507f5f997

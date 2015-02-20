@@ -15,4 +15,3 @@ My name is Josh Marino and I am a master's student at Northwestern University in
 * LinkedIn: [Josh Marino](https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile)
 * Northwestern MSR: [Master of Science in Robotics](http://robotics.northwestern.edu/)
 * Address: 2145 Sheridan Rd., Evanston, IL, 60201
-

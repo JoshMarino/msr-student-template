@@ -1,8 +1,9 @@
 ---
 layout: project
+<<<<<<< HEAD
 title: MSR Hack-a-thon
 date: September 5, 2014
-image: http://www.thinkgeek.com/product/8a0f/?i=10528
+image: http://a.tgcdn.net/images/products/zoom/8a0f_usb_rocket_launcher.jpg
 ---
 
 ## Overview
@@ -19,3 +20,24 @@ OpenCV within Python was performed on the USB camera stream to locate the positi
 
 ### Putting it all Together
 Once we achieved our task of aiming the rocket launcher with keyboard input, the 4 teams showcased their individual methods for aiming the rocket launcher. One team provided the other 3 teams with a method to send each team's aiming commands over a wireless network and between computers using networking. The other two teams accomplished aiming the rocket launcher via voice commands through a microphone and by using the Kinect PCL to command the rocket launcher based on different hand/arm/leg positions.
+=======
+title: Project 1
+date: September 22, 2014
+image: http://unsplash.it/400?random
+---
+
+## Overview
+Lorem ipsum dolor sit amet, tota primis copiosae id quo. Melius eligendi elaboraret pri et, eam menandri platonem te. Tollit iudicabit gloriatur per ad. Ad diceret recteque eum, eu commodo petentium qui. No aliquid delectus eam, dicta eripuit convenire te nec. Vix no veritus dignissim. Erat ferri veniam ut eos, pro ex eius error intellegat, his te graecis oporteat honestatis.
+
+### Topic 1
+His nemore audiam consequat ad, no augue choro assueverit mei. Zril offendit tincidunt ne quo. At commodo integre alienum sea, cu vocent fuisset suscipit nam. Eum ex tation omnesque adversarium, mutat autem putant te nam. Id vix facilis complectitur, vis vitae vivendo euripidis ea, fugit eirmod an vix.
+
+### Topic 2
+Ad case nemore equidem mea. Duo te iuvaret appetere appellantur, sint scaevola usu cu. Eum ne aeque ridens prompta. At legendos vulputate eos, pro illum iuvaret cu, ludus vituperata usu no.
+
+### Topic 3
+Mel magna discere in. Mea ea dicit homero perfecto. Eam nulla facete scribentur in. Vide volutpat laboramus est cu, usu cu impetus dignissim. Ex pro decore impetus. Ius nihil iisque deterruisset an, ex sanctus verterem his. Doming prompta insolens est ut.
+
+### Topic 4
+Quod etiam pri ea, habemus electram ea eos, propriae insolens ea qui. Pro no mollis vituperatoribus. Augue quando delicatissimi ex per, vel ea vidisse dolorem eleifend. Has te aliquid senserit, reque soleat sed ea. At bonorum facilisis disputando est, error tantas appetere nec te. Mel in nobis animal.
+>>>>>>> 655942306b89c628c5e9437ec641109507f5f997
