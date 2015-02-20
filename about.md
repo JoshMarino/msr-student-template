@@ -2,7 +2,7 @@
 layout: about
 path: /about
 url: index.html
-image: http://unsplash.it/400?random
+image: http://i1290.photobucket.com/albums/b525/Josh_Marino/headshot_zpshl3l2mhw.jpg
 ---
 
 ## Overview
